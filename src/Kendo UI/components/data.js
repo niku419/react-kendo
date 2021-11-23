@@ -5,7 +5,7 @@ const keys = Object.keys(data)
 
 export const stateData = keys.map((key, id) => {
   return {
-    stateId: id,
+    stateId: key,
     stateName: key 
   }
 })
